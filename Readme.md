@@ -10,9 +10,7 @@ Aufgabe: Newsletter erstellen
 
 ---
 1. Erstelle eine HTML5 Datei  (10 Punkte)
-##### Unteraufgaben
 * Die Datei soll den Namen form.html haben
-##### Unteraufgaben
 * Erstelle ein Formular im Body der html-Datei
 1. Füge ein method-Attribut in das Formular hinzu (10 Punkte)
 1. Die Methode in dem Formular soll auf GET gesetzt werden (10 Punkte)
