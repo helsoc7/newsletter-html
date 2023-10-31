@@ -18,7 +18,7 @@
       "javascript": "document.querySelectorAll('form').length >= 1",
       "output": "true",
       "comparison": "exact",
-      "points": 10
+      "points": 5
     },
     {
       "specs": {
@@ -78,7 +78,7 @@
       "javascript": "(function() { var fieldset = document.querySelector('fieldset'); var legend = fieldset ? fieldset.querySelector('legend') : null; return legend && legend.textContent === 'Newsletter'; })()",
       "output": "true",
       "comparison": "exact",
-      "points": 15
+      "points": 10
     },
     {
       "specs": {
@@ -126,7 +126,7 @@
       "javascript": "(function() { return Array.from(document.querySelectorAll('form input')).every(input => input.id && document.querySelector(`label[for='${input.id}']`)); })();",
       "output": "true",
       "comparison": "exact",
-      "points": 20
+      "points": 15
     }
   ]
 }
