@@ -22,7 +22,7 @@
     },
     {
       "specs": {
-        "title": "Füge ein method-Attribut in das Formular hinzu"
+        "title": "Füge ein method-Attribut in das Formular hinzu "
       },
       "name": "Füge ein method-Attribut in das Formular hinzu",
       "feedback": "Your form is missing the 'method' attribute. It is necessary to specify how to send form data.",
