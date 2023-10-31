@@ -6,7 +6,7 @@
     "tests": [
         {
         "specs": {
-            "title": "Erstelle eine HTML5 Datei",
+            "title": "Erstelle eine HTML5 Datei ",
             "list": ["Die Datei soll den Namen form.html haben", "Erstelle ein Formular im Body der html-Datei"]
         },
          "name": "Erstelle eine HTML5 Datei. Die Datei soll den Namen form.html haben. Erstelle ein Formular im Body der html-Datei",
