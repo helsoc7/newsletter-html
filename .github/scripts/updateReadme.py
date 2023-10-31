@@ -70,7 +70,7 @@ if __name__ == "__main__":
             
             if have_specs is not None:
                 name = test.get("name")
-                write_section(readme_file, name, "")
+                #write_section(readme_file, name, "")
                 
                 if "list" in have_specs:
                     content = ""
