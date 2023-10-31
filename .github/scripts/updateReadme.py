@@ -66,7 +66,7 @@ if __name__ == "__main__":
             have_specs = test.get("specs")
             points = test.get("points")
             title = have_specs.get("title")
-            readme_file.write(f"### 1. {title} ({points} Punkte)\n")
+            readme_file.write(f"    {title} ({points} Punkte)\n")
             
             if have_specs is not None:
                 name = test.get("name")
