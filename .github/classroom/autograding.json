@@ -1,0 +1,134 @@
+{
+    "repo": "test-23-07/test-timetable-css-test",
+    "introduction": "Aufgabe: Newsletter erstellen",
+    "logo_url": "https://studentenwerk-frankfurt.net/wp-content/uploads/2021/10/newsletter3.jpg",
+    "timeframe": "30 Minuten (Viel Erfolg!)",
+    "tests": [
+        {
+        "specs": {
+            "title": "Erstelle eine HTML5 Datei",
+            "list": ["Die Datei soll den Namen form.html haben", "Erstelle ein Formular im Body der html-Datei"]
+        },
+         "name": "Erstelle eine HTML5 Datei. Die Datei soll den Namen form.html haben. Erstelle ein Formular im Body der html-Datei",
+         "feedback": "Your HTML file does not have a <form> element. Please add a form tag.",
+         "file": "form.html",
+         "javascript": "document.querySelectorAll('form').length >= 1",
+         "output": "true",
+         "comparison": "exact",
+         "points": 10
+       },
+       {
+        "specs": {
+            "title": "Füge ein method-Attribut in das Formular hinzu"
+        },
+         "name": "Füge ein method-Attribut in das Formular hinzu",
+         "feedback": "Your form is missing the 'method' attribute. It is necessary to specify how to send form data.",
+         "file": "form.html",
+         "javascript": "document.querySelector('form').hasAttribute('method')",
+         "output": "true",
+         "comparison": "exact",
+         "points": 10
+       },
+        {
+            "specs": {
+                "title": "Die Methode in dem Formular soll auf GET gesetzt werden"
+            },
+            "name": "Die Methode in dem Formular soll auf GET gesetzt werden",
+            "feedback": "Your form's method must be set to 'GET'.",
+            "file": "form.html",
+            "javascript": "document.querySelector('form').getAttribute('method').toUpperCase() === 'GET'",
+            "output": "true",
+            "comparison": "exact",
+            "points": 10
+        },
+   
+       {
+        "specs": {
+            "title": "Füge ein action-Attribut in das Formular hinzu"
+        },
+         "name": "Füge ein action-Attribut in das Formular hinzu",
+         "feedback": "Your form is missing the 'action' attribute. The form needs an action attribute to specify where to send the form data.",
+         "file": "form.html",
+         "javascript": "document.querySelector('form').hasAttribute('action')",
+         "output": "true",
+         "comparison": "exact",
+         "points": 10
+       },
+        {
+            "specs": {
+                "title": "Die Action soll auf '/contact' geleitet werden"
+            },
+            "name": "Die Action soll auf '/contact' geleitet werden",
+            "feedback": "Your form's action must be set to 'contact'.",
+            "file": "form.html",
+            "javascript": "document.querySelector('form').getAttribute('action') === '/contact'",
+            "output": "true",
+            "comparison": "exact",
+            "points": 10
+        },
+        {
+            "specs": {
+                "title": "Erstelle ein Fieldset mit der Legende mit dem Namen 'Newsletter'"
+            },
+            "name": "Erstelle ein Fieldset mit der Legende mit dem Namen 'Newsletter'",
+            "feedback": "Your form must include a fieldset with a legend labeled 'Newsletter'.",
+            "file": "form.html",
+            "javascript": "(function() { var fieldset = document.querySelector('fieldset'); var legend = fieldset ? fieldset.querySelector('legend') : null; return legend && legend.textContent === 'Newsletter'; })()",
+            "output": "true",
+            "comparison": "exact",
+            "points": 15
+        },
+       {
+        "specs": {
+            "title": "Erstelle ein input-Field mit Typisierung für eine E-Mail-Adresse"
+        },
+         "name": "Erstelle ein input-Field mit Typisierung für eine E-Mail-Adresse",
+         "feedback": "Your form does not have an input field for email. Please include an input with type 'email'.",
+         "file": "form.html",
+         "javascript": "document.querySelectorAll('input[type=email]').length == 1",
+         "output": "true",
+         "comparison": "exact",
+         "points": 10
+       },
+       {
+        "specs": {
+            "title": "Füge einen Submit-Button in das Formular hinzu"
+        },
+         "name": "Füge einen Submit-Button in das Formular hinzu",
+         "feedback": "Your form does not have a submit button. Please include an input with type 'submit' or a button with type 'submit'.",
+         "file": "form.html",
+         "javascript": "document.querySelectorAll('input[type=submit], button[type=submit]').length >= 1",
+         "output": "true",
+         "comparison": "exact",
+         "points": 10
+       },
+       {
+        "specs": {
+            "title": "Füge einen Reset-Button in das Formular hinzu"
+        },
+         "name": "Füge einen Reset-Button in das Formular hinzu",
+         "feedback": "Your form does not have a reset button. Please include an input with type 'reset' or a button with type 'reset'.",
+         "file": "form.html",
+         "javascript": "document.querySelectorAll('input[type=reset], button[type=reset]').length >= 1",
+         "output": "true",
+         "comparison": "exact",
+         "points": 10
+       },
+        {
+            "specs": {
+                "title": "Alle input-Elemente sollen eine ID und ein assoziiertes Label haben"
+            },
+            "name": "Alle input-Elemente sollen eine ID und ein assoziiertes Label haben",
+            "feedback": "Each input in your form needs an 'id' and a corresponding label with a 'for' attribute.",
+            "file": "form.html",
+            "javascript": "(function() { return Array.from(document.querySelectorAll('form input')).every(input => input.id && document.querySelector(`label[for='${input.id}']`)); })();",
+            "output": "true",
+            "comparison": "exact",
+            "points": 20
+        }
+   
+   
+   
+   
+     ]
+  }
