@@ -66,18 +66,17 @@ if __name__ == "__main__":
             have_specs = test.get("specs")
             points = test.get("points")
             title = have_specs.get("title")
-            readme_file.write(f"1. {title} ({points} Punkte)\n")
+            readme_file.write(f"### {title} ({points} Punkte)\n")
             
             if have_specs is not None:
                 name = test.get("name")
-                #write_section(readme_file, name, "")
+                write_section(readme_file, name, "")
                 
                 if "list" in have_specs:
                     content = ""
                     for l in have_specs["list"]:
                         content += (l + "\n")
-                        #write_smallsection(readme_file, "Unteraufgaben", l)
-                        readme_file.write(f"* {l}\n")
+                        write_smallsection(readme_file, "Unteraufgaben", l)
                         
                 if "code_example" in have_specs:
                     write_smallersection(readme_file, "Code-Beispiel:", f"`{have_specs.get('code_example')}`")
