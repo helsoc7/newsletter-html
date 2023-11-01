@@ -77,7 +77,7 @@ if __name__ == "__main__":
                     for l in have_specs["list"]:
                         content += (l + "\n")
                         #write_smallsection(readme_file, "Unteraufgaben", l)
-                        readme_file.write(f"* {l}")
+                        readme_file.write(f"* {l}\n")
                         
                 if "code_example" in have_specs:
                     write_smallersection(readme_file, "Code-Beispiel:", f"`{have_specs.get('code_example')}`")
