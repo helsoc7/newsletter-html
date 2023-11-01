@@ -9,6 +9,18 @@ Aufgabe: Formular für die Newsletter-Anmeldung
 * 30 Minuten (Viel Erfolg!)
 
 ---
+### Setup: (0 Punkte)
+##### Unteraufgaben
+* Klone dir das Repository lokal
+##### Unteraufgaben
+* Wenn du etwas gepusht hast, führe ein git pull --rebase aus
+##### Unteraufgaben
+* Du kannst deinen Erfolg auch in der Status-Leiste beobachten
+###### Hilfe
+* [Spickzettel](https://git-scm.com/docs/git-pull) 
+
+
+---
 ### Erstelle eine HTML5 Datei  (5 Punkte)
 ##### Unteraufgaben
 * Die Datei soll den Namen form.html haben
