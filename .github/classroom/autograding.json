@@ -10,8 +10,8 @@
         "list": [
           "Die Datei soll den Namen form.html haben",
           "Erstelle ein Formular im Body der html-Datei",
-          "code-example": "<form></form>"
-        ]
+        ],
+        "code-example": "<form></form>"
       },
       "name": "Erstelle eine HTML5 Datei. Die Datei soll den Namen form.html haben. Erstelle ein Formular im Body der html-Datei",
       "feedback": "Your HTML file does not have a <form> element. Please add a form tag.",
