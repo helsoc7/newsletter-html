@@ -10,25 +10,13 @@ Aufgabe: Formular für die Newsletter-Anmeldung
 
 ---
 ### Setup: (0 Punkte)
-##### Unteraufgaben
-* Klone dir das Repository lokal
-##### Unteraufgaben
-* Wenn du gepusht hast, führe ein git pull --rebase aus
-##### Unteraufgaben
-* Du kannst deinen Erfolg auch in der Status-Leiste beobachten wenn du Shift + F5 zum Aktualisieren nutzt.
-##### Unteraufgaben
-* Parallel wird bei jedem Push die Pipeline getriggert. Du siehst sie in der Github Weboberfläche unter dem Reiter Action. Klicke auf die laufende Pipeline. Der Name der Pipeline spiegelt deine Commit-Message wieder. Wird die Pipeline grün, so hast du die Aufgabe erfolgreich erledigt. Wird die Pipeline rot, so prüfe bitte, welche Teile dir noch fehlen. Indem du auf die Pipeline klickst werden dir die Checks der einzelnen Anforderungen angezeigt.
-###### Hilfe
+* Klone dir das Repository lokal* Wenn du gepusht hast, führe ein git pull --rebase aus* Du kannst deinen Erfolg auch in der Status-Leiste beobachten wenn du Shift + F5 zum Aktualisieren nutzt.* Parallel wird bei jedem Push die Pipeline getriggert. Du siehst sie in der Github Weboberfläche unter dem Reiter Action. Klicke auf die laufende Pipeline. Der Name der Pipeline spiegelt deine Commit-Message wieder. Wird die Pipeline grün, so hast du die Aufgabe erfolgreich erledigt. Wird die Pipeline rot, so prüfe bitte, welche Teile dir noch fehlen. Indem du auf die Pipeline klickst werden dir die Checks der einzelnen Anforderungen angezeigt.###### Hilfe
 * [Spickzettel](https://git-scm.com/docs/git-pull) 
 
 
 ---
 ### Erstelle eine HTML5 Datei  (5 Punkte)
-##### Unteraufgaben
-* Die Datei soll den Namen form.html haben
-##### Unteraufgaben
-* Erstelle ein Formular im Body der html-Datei
-###### Hilfe
+* Die Datei soll den Namen form.html haben* Erstelle ein Formular im Body der html-Datei###### Hilfe
 * [Spickzettel](https://www.w3schools.com/html/html_forms.asp) 
 
 
