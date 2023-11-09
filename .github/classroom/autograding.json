@@ -120,6 +120,7 @@
       },
       "name": "Füge einen Submit-Button in das Formular hinzu",
       "feedback": "Your form does not have a submit button. Please include an input with type 'submit' or a button with type 'submit'.",
+      "urls": "https://www.w3schools.com/tags/att_input_type_submit.asp",
       "file": "form.html",
       "javascript": "document.querySelectorAll('input[type=submit], button[type=submit]').length >= 1",
       "output": "true",
