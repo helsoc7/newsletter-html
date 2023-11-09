@@ -10,17 +10,6 @@ Aufgabe: Formular für die Newsletter-Anmeldung
 
 ---
 <ol>
-<li> Setup: (0 Punkte)</li>
-<ul><li> Klone dir das Repository lokal</li></ul>
-<ul><li> Wenn du gepusht hast, führe ein git pull --rebase aus</li></ul>
-<ul><li> Du kannst deinen Erfolg auch in der Status-Leiste beobachten wenn du Shift + F5 zum Aktualisieren nutzt.</li></ul>
-<ul><li> Parallel wird bei jedem Push die Pipeline getriggert. Du siehst sie in der Github Weboberfläche unter dem Reiter Action. Klicke auf die laufende Pipeline. Der Name der Pipeline spiegelt deine Commit-Message wieder. Wird die Pipeline grün, so hast du die Aufgabe erfolgreich erledigt. Wird die Pipeline rot, so prüfe bitte, welche Teile dir noch fehlen. Indem du auf die Pipeline klickst werden dir die Checks der einzelnen Anforderungen angezeigt.</li></ul>
-Code-Beispiel: 
-<ul><li><code>git pull --rebase</code></li></ul>
-Hilfe: 
-<ul><li><a href="https://git-scm.com/docs/git-pull">Spickzettel</a></li></ul> 
-
----
 <li> Erstelle eine HTML5 Datei  (5 Punkte)</li>
 <ul><li> Die Datei soll den Namen form.html haben</li></ul>
 <ul><li> Erstelle ein Formular im Body der html-Datei</li></ul>
