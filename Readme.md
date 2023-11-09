@@ -14,7 +14,7 @@ Aufgabe: Formular für die Newsletter-Anmeldung
 <ul><li> Die Datei soll den Namen form.html haben</li></ul>
 <ul><li> Erstelle ein Formular im Body der html-Datei</li></ul>
 Code-Beispiel: 
-<ul><li><code><form></form></code></li></ul>
+<ul><li><code>&lt;form&gt;&lt;/form&gt;</code></li></ul>
 Hilfe: 
 <ul><li><a href="https://www.w3schools.com/html/html_forms.asp">Spickzettel</a></li></ul> 
 
