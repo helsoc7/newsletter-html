@@ -18,6 +18,7 @@
       "urls": [
         "https://www.w3schools.com/html/html_forms.asp"
       ],
+      "keywords": ["html", "form", "element"],
       "file": "form.html",
       "javascript": "document.querySelectorAll('form').length >= 1",
       "output": "true",
@@ -33,6 +34,7 @@
       "urls": [
         "https://www.w3schools.com/tags/att_form_method.asp"
       ],
+      "keywords": ["html", "form", "method"],
       "file": "form.html",
       "javascript": "document.querySelector('form').hasAttribute('method')",
       "output": "true",
@@ -48,6 +50,7 @@
       "urls": [
         "https://www.w3schools.com/tags/att_form_method.asp"
       ],
+      "keywords": ["html", "form", "method", "get"],
       "file": "form.html",
       "javascript": "document.querySelector('form').getAttribute('method').toUpperCase() === 'GET'",
       "output": "true",
@@ -62,6 +65,7 @@
       "urls": [
         "https://www.w3schools.com/tags/att_form_action.asp"
       ],
+      "keywords": ["html", "form", "action", "attribute"],
       "feedback": "Your form is missing the 'action' attribute. The form needs an action attribute to specify where to send the form data.",
       "file": "form.html",
       "javascript": "document.querySelector('form').hasAttribute('action')",
@@ -78,6 +82,7 @@
       "urls": [
         "https://www.w3schools.com/tags/att_form_action.asp"
       ],
+      "keywords": ["html", "form", "action", "redirect"],
       "file": "form.html",
       "javascript": "document.querySelector('form').getAttribute('action') === '/contact'",
       "output": "true",
@@ -93,6 +98,7 @@
       "urls": [
         "https://www.w3schools.com/tags/tag_fieldset.asp"
       ],
+      "keywords": ["html", "fieldset", "legend"],
       "file": "form.html",
       "javascript": "(function() { var fieldset = document.querySelector('fieldset'); var legend = fieldset ? fieldset.querySelector('legend') : null; return legend && legend.textContent === 'Newsletter'; })()",
       "output": "true",
@@ -108,6 +114,7 @@
       "urls": [
         "https://www.w3schools.com/html/html_form_input_types.asp"
       ],
+      "keywords": ["html", "input-field", "type"],
       "file": "form.html",
       "javascript": "document.querySelectorAll('input[type=email]').length == 1",
       "output": "true",
@@ -123,6 +130,7 @@
       "urls": [
         "https://www.w3schools.com/tags/att_input_type_submit.asp"
       ],
+      "keywords": ["html", "input", "submit"],
       "file": "form.html",
       "javascript": "document.querySelectorAll('input[type=submit], button[type=submit]').length >= 1",
       "output": "true",
@@ -138,6 +146,7 @@
       "urls": [
         "https://www.w3schools.com/tags/att_button_form.asp"
       ],
+      "keywords": ["html", "input", "reset"],
       "file": "form.html",
       "javascript": "document.querySelectorAll('input[type=reset], button[type=reset]').length >= 1",
       "output": "true",
@@ -153,6 +162,7 @@
       "urls": [
         "https://www.w3schools.com/tags/tag_label.asp"
       ],
+      "keywords": ["html", "id", "label"],
       "file": "form.html",
       "javascript": "(function() { return Array.from(document.querySelectorAll('form input')).some(input => input.id === 'mail'); })();",
       "output": "true",
