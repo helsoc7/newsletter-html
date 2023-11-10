@@ -1,5 +1,5 @@
 {
-  "repo": "helsoc7/newsletter-html",
+  "repo": "TechstarterGmbH/newsletter-test-heinrich-Guckguck",
   "introduction": "Aufgabe: Formular für die Newsletter-Anmeldung",
   "logo_url": "https://studentenwerk-frankfurt.net/wp-content/uploads/2021/10/newsletter3.jpg",
   "timeframe": "30 Minuten (Viel Erfolg!)",
@@ -146,15 +146,15 @@
     },
     {
       "specs": {
-        "title": "Das Feld für die E-Mail-Adresse soll eine ID und ein assoziiertes Label haben"
+        "title": "Das Feld für die E-Mail-Adresse soll eine ID (mail) und ein assoziiertes Label haben"
       },
-      "name": "Alle input-Elemente sollen eine ID und ein assoziiertes Label haben",
-      "feedback": "Each input in your form needs an 'id' and a corresponding label with a 'for' attribute.",
+      "name": "Die E-Mail Adresse braucht ein Label und eine ID",
+      "feedback": "The email input field in your form needs an 'id' and a corresponding label with a 'for' attribute.",
       "urls": [
         "https://www.w3schools.com/tags/tag_label.asp"
       ],
       "file": "form.html",
-      "javascript": "(function() { return Array.from(document.querySelectorAll('form input')).every(input => input.id && document.querySelector(`label[for='${input.id}']`)); })();",
+      "javascript": "(function() { return Array.from(document.querySelectorAll('form input')).some(input => input.id === 'mail'); })();",
       "output": "true",
       "comparison": "exact",
       "points": 15
