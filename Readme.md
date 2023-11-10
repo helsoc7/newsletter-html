@@ -59,7 +59,7 @@ Hilfe:
 <ul><li><a href="https://www.w3schools.com/tags/att_button_form.asp">Spickzettel</a></li></ul> 
 
 ---
-<li> Das Feld für die E-Mail-Adresse soll eine ID und ein assoziiertes Label haben (15 Punkte)</li>
+<li> Das Feld für die E-Mail-Adresse soll eine ID (mail) und ein assoziiertes Label haben (15 Punkte)</li>
 Hilfe: 
 <ul><li><a href="https://www.w3schools.com/tags/tag_label.asp">Spickzettel</a></li></ul> 
 
